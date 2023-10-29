@@ -18,13 +18,14 @@ function App() {
           <Label text="Login ID"></Label>
           <Input type='text' placeholder="Enter Login ID"></Input>
           <Label text="Password"></Label>
+         
           <Input type='password' placeholder="Enter Password"></Input>
         </InputContainer>
         <ForgetText>
           <Remember style={{ fontSize: "18px" }}><Checkbox type="checkbox"></Checkbox> Remember Me</Remember>
           <Change style={{ color: "#F78719", fontSize: "18px" }}>Change Password</Change>
         </ForgetText>
-        <Agree style={{ fontSize: "18px" }}><Checkbox type="checkbox"></Checkbox>Agree To <a href="" style={{ color: "#F78719" }}>Tram And Condition</a></Agree>
+        <Agree style={{ fontSize: "18px" }}><Checkbox type="checkbox"></Checkbox>Agree to <a href="" style={{ color: "#F78719" }}>Tram And Condition</a></Agree>
         <ButtonContainer>
           <Button content="Login"></Button>
         </ButtonContainer>
