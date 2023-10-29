@@ -1,4 +1,48 @@
 imran {
   display: flex;
   align-items: center;
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid red;
+  justify-content: space-between;
+  align-items: center;
+  max-width: initial;
+  align-items: center;
+  margin: 3rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2rem;
+  width: 80%;
+  height: 3rem;
+  padding: 1rem;
+  margin: 4px;
+  text-align: center;
+  color: #3c354e;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem 0 2rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  width: 65%;
+  height: 3rem;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 48px;
+  /* text-align: ; */
 }
