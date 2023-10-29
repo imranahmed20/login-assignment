@@ -3,31 +3,33 @@ import image from '../src/assets/image.png'
 import Input from "./Component/input"
 import Button from "./Component/Button"
 import Label from "./Component/Label"
+import Checkbox from "./Component/Checkbox"
 
 function App() {
 
   return (
     <MainContainer>
       <OnePart>
-        <img src={image} alt="" />
+        <img style={{ width: "100%", height: "100%", maxWidth: 'auto' }} src={image} alt="" />
       </OnePart>
       <AnotherPart>
         <LoginText>Login</LoginText>
         <InputContainer>
-          <Label></Label>
+          <Label text="Login ID"></Label>
           <Input type='text' placeholder="Enter Login ID"></Input>
+          <Label text="Password"></Label>
           <Input type='password' placeholder="Enter Password"></Input>
         </InputContainer>
         <ForgetText>
-          <Remember>Remember Me</Remember>
-          <Change>Change Password</Change>
+          <Remember><Checkbox type="checkbox"></Checkbox> Remember Me</Remember>
+          <Change style={{ color: "#F78719" }}>Change Password</Change>
         </ForgetText>
-        <Agree>Agree To <a href="">Tram And Condition</a></Agree>
+        <Agree><Checkbox type="checkbox"></Checkbox>Agree To <a href="" style={{ color: "#F78719" }}>Tram And Condition</a></Agree>
         <ButtonContainer>
           <Button content="Login"></Button>
         </ButtonContainer>
         <Account>
-          Do not have an account?<a href="">Register Here</a>
+          Do not have an account?<a href="" style={{ color: "#F78719" }}>Register Here</a>
         </Account>
       </AnotherPart>
     </MainContainer>

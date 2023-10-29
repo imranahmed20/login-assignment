@@ -9,16 +9,17 @@ const Button = ({ content }) => {
     );
 };
 const StyleButton = styled.button`
-  background-color: blue;
+  background-color: #1575A7;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  width: 65%;
-  height: 3rem;
+  align-items: center;
+  width: 538px;
+  height: 56px;
   border: none;
   color: white;
-  border-radius: 2rem;
+  border-radius: 8px;
   cursor: pointer;
-
+  font-size: 18px;
 `
 
 export default Button;
