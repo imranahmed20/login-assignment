@@ -10,5 +10,6 @@ const Checkbox = ({ type }) => {
 };
 const CheckboxStyle = styled.input`
   background-color: #eee;
+  font-size: 14px;
 `
 export default Checkbox;

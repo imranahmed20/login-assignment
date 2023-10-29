@@ -21,15 +21,15 @@ function App() {
           <Input type='password' placeholder="Enter Password"></Input>
         </InputContainer>
         <ForgetText>
-          <Remember><Checkbox type="checkbox"></Checkbox> Remember Me</Remember>
-          <Change style={{ color: "#F78719" }}>Change Password</Change>
+          <Remember style={{ fontSize: "18px" }}><Checkbox type="checkbox"></Checkbox> Remember Me</Remember>
+          <Change style={{ color: "#F78719", fontSize: "18px" }}>Change Password</Change>
         </ForgetText>
-        <Agree><Checkbox type="checkbox"></Checkbox>Agree To <a href="" style={{ color: "#F78719" }}>Tram And Condition</a></Agree>
+        <Agree style={{ fontSize: "18px" }}><Checkbox type="checkbox"></Checkbox>Agree To <a href="" style={{ color: "#F78719" }}>Tram And Condition</a></Agree>
         <ButtonContainer>
           <Button content="Login"></Button>
         </ButtonContainer>
-        <Account>
-          Do not have an account?<a href="" style={{ color: "#F78719" }}>Register Here</a>
+        <Account style={{ fontSize: "18px" }}>
+          Do not have an account? <a href="" style={{ color: "#F78719" }}> Register Here</a>
         </Account>
       </AnotherPart>
     </MainContainer>
@@ -41,6 +41,9 @@ display: flex;
 justify-content: space-evenly;
 width: 100%;
 height: 100%;
+@media (max-width: 800px) {
+  flex-direction: column;
+}
 `
 const LoginText = styled.h2`
 margin: 3rem 0 2rem 0;
