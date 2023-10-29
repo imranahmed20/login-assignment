@@ -29,6 +29,7 @@ imran {
   margin: 1rem 0 2rem 0;
   width: 100%;
   display: flex;
+  margin: 10px;
   align-items: center;
   justify-content: center;
   background-color: blue;
@@ -47,4 +48,5 @@ imran {
   display: inline-block;
   /* text-align: ; */
   margin-bottom: 10px;
+
 }
